@@ -1,0 +1,97 @@
+.seventh-content{
+    background-color: #E5C643;
+    font-family: 'poppins' ,sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 1rem;
+    height: 20rem;
+}
+.join-shopping{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    line-height: 3rem;
+    width: 100%;
+}
+.type-email{
+    font-size: 1.8rem;
+    color: white;
+    
+}
+.send-input{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 22rem;
+    height: 2.5rem;
+    padding: 10px 0 10px 10px;
+}
+.email-input{
+    font-family: 'poppins' ,sans-serif;
+    color: #767676;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+.email-input::placeholder{
+    font-size: 20px;
+}
+.send-btn{
+    font-family: 'poppins' ,sans-serif;
+    font-size: 20px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    width: 6rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 900px) {
+    .seventh-content{
+        height: 16rem;
+    }
+    .join-shopping{
+        font-size: 2rem;
+    }
+    .type-email{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .seventh-content{
+        height: 14rem;
+    }
+    .join-shopping{
+        font-size: 1rem;
+    }
+    .type-email{
+        font-size: 0.6rem;
+    }
+    .send-input{
+        border-radius: 3px;
+        width: 18rem;
+        height: 1.5rem;
+        padding: 6px 0 6px 6px;
+    }
+    .email-input{
+        font-size: 12px;
+    }
+    .email-input::placeholder{
+        font-size: 16px;
+    }
+    .send-btn{
+        font-size: 15px;
+        border-radius: 3px;
+        width: 3.2rem;
+        height: 1.5rem;
+    }
+}

@@ -1,0 +1,16 @@
+.second-content{
+    margin-top: 2rem;
+    padding: 0.5rem 0;
+    background-color: #d7bc09;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+.second-content div{
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 100px;
+}

@@ -1,0 +1,134 @@
+.third-content{
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.new{
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+}
+.third-content-imgs{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    gap: 0.5rem;
+}
+.first-container{
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+}
+.third-image{
+    width: 20rem;
+}
+.under{
+    display: flex;
+    justify-content: space-between;
+}
+.detail{
+    font-size: 28px;
+}
+.colour-detail{
+    color: #7F7F7F;
+    font-size: 22px;
+    font-weight: 500;
+}
+.arrow{
+    color: #7F7F7F;
+}
+
+@media (max-width:1105px) {
+    .third-content{
+        margin-top: 1.5rem;
+    }
+    .new{
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    .third-image{
+        width: 18rem;
+    }
+    .detail{
+        font-size: 24px;
+    }
+    .colour-detail{
+        font-size: 18px;
+    }
+}
+@media (max-width:1000px) {
+    .third-content{
+        margin-top: 1rem;
+    }
+    .new{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .third-image{
+        width: 15rem;
+    }
+    .detail{
+        font-size: 20px;
+    }
+    .colour-detail{
+        font-size: 15px;
+    }
+}
+@media (max-width:835px) {
+    .new{
+        font-size: 1.6rem;
+    }
+    .third-image{
+        width: 12rem;
+    }
+    .detail{
+        font-size: 16px;
+    }
+    .colour-detail{
+        font-size: 12px;
+    }
+}
+@media (max-width:660px) {
+    .new{
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    .third-image{
+        width: 8rem;
+    }
+    .under{
+        justify-content: center;
+    }
+    .detail{
+        font-size: 12px;
+    }
+    .colour-detail{
+        font-size: 10px;
+    }
+    .arrow{
+        display: none;
+    }
+}
+@media (max-width:450px) {
+    .third-content{
+        margin-top: 0.5rem;
+    }
+    .new{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .third-content-imgs{
+        flex-direction: column;
+    }
+    .third-image{
+        width: 10rem;
+    }
+    .detail{
+        font-size: 16px;
+    }
+    .colour-detail{
+        font-size: 14px;
+    }
+}

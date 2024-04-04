@@ -1,0 +1,182 @@
+.sixth-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sixth-1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.dowload{
+    font-size: 2.2rem;
+    font-weight: 900;
+    width: 22rem;
+}
+.discount{
+    font-size: 1.2rem;
+    width: 25rem;
+}
+.sixth-2{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.big{
+    border: 1px solid #EFECEB;
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    position: absolute;
+    left: 6%;
+    z-index: -1;
+}
+.bigger{
+    border: 1px solid #EFECEB;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    position: absolute;
+    right: 3%;
+    z-index: -1;
+}
+.biggest{
+    border: 1px solid #EFECEB;
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    position: absolute;
+    right: -3%;
+    z-index: -1;
+}
+.mobile-img{
+    width: 21rem;
+}
+
+
+@media (max-width:1000px) {
+    .sixth-1{
+        row-gap: 1rem;
+    }
+    .dowload{
+        font-size: 2rem;
+    }
+    .discount{
+        font-size: 1rem;
+        width: 20rem;
+    }
+    .apple-img{
+        width: 10rem;
+    }
+    .big{
+        width: 250px;
+        height: 250px;
+        left: 1%;
+    }
+    .bigger{
+        width: 280px;
+        height: 280px;
+        right: -4%;
+    }
+    .biggest{
+        width: 310px;
+        height: 310px;
+        right: -10%;
+    }
+    .mobile-img{
+        width: 16rem;
+    }
+}
+
+@media (max-width:850px) {
+    .sixth-1{
+        row-gap: 0.5rem;
+    }
+    .dowload{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        width: 16rem
+    }
+    .discount{
+        font-size: 14px;
+        width: 19rem;
+    }
+    .apple-img{
+        width: 8rem;
+    }
+    .big{
+        width: 210px;
+        height: 210px;
+        left: -7%;
+    }
+    .bigger{
+        width: 240px;
+        height: 240px;
+        right: -10%;
+    }
+    .biggest{
+        width: 270px;
+        height: 270px;
+        right: -18%;
+    }
+    .mobile-img{
+        width: 12rem;
+    }
+}
+@media (max-width:650px) {
+    .sixth-1{
+        row-gap: 0.5rem;
+    }
+    .dowload{
+        font-size: 1rem;
+        line-height: 1.2rem;
+        width: 10rem;
+    }
+    .discount{
+        font-size: 10px;
+        line-height: 0.8rem;
+        width: 12rem;
+    }
+    .apple-img{
+        width: 4rem;
+    }
+    .big{
+        width: 150px;
+        height: 150px;
+        left: 0%;
+    }
+    .bigger{
+        width: 180px;
+        height: 180px;
+        right: -14%;
+    }
+    .biggest{
+        width: 210px;
+        height: 210px;
+        right: -25%;
+    }
+    .mobile-img{
+        width: 9rem;
+    }
+}
+
+@media (max-width:475px) {
+    .sixth-content{
+        margin-top: 10px;
+        justify-content: center;
+    }
+    .sixth-2{
+        display: none;
+    }
+    .dowload{
+        width: 100%;
+    }
+    .discount{
+        width: 100%;
+    }
+    .buttons{
+        margin: auto;
+    }
+}

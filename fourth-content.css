@@ -1,0 +1,146 @@
+.fourth-content{
+    background-image: linear-gradient(#F9DF56, #F0D44C ,#e7c320);
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    margin-top: 5rem;
+}
+.fourth-image{
+    width: 35rem;
+    height: 100%;
+}
+.fourth-2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.pay{
+    background-color: red;
+    padding: 0 15px;
+}
+.pay-sale{
+    font-size: 3.5rem;
+    font-weight: 900;
+    width: 23rem;
+    line-height: 5rem;
+}
+.spend{
+    font-size: 1.5rem;
+}
+.date{
+    font-weight: 700;
+}
+.discount-date{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.fourth-shop{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border: none;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 8px;
+}
+@media (max-width:1000px) {
+    .fourth-content{
+        margin-top: 3rem;
+    }
+    .fourth-image{
+        width: 30rem;
+    }
+}
+@media (max-width:850px) {
+    .fourth-content{
+        margin-top: 2.5rem;
+    }
+    .fourth-image{
+        width: 25rem;
+        height: 100%;
+    }
+    .fourth-2{
+        row-gap: 1rem;
+    }
+    .pay-sale{
+        font-size: 2.5rem;
+        line-height: 3rem;
+        width: 19rem;
+    }
+    .spend{
+        font-size: 1rem;
+    }
+    .discount-date{
+        font-size: 1.2rem;
+    }
+    .fourth-shop{
+        font-size: 15px;
+        width: 7.5rem;
+        height: 2.5rem;
+        border-radius: 6px;
+    }
+}
+@media (max-width:700px) {
+    .fourth-content{
+        margin-top: 1rem;
+    }
+    .fourth-image{
+        width: 19rem;
+    }
+    .fourth-2{
+        row-gap: 0.5rem;
+    }
+    .pay-sale{
+        font-size: 1.5rem;
+        width: 12rem;
+        line-height: 2.2rem;
+    }
+    .spend{
+        font-size:14px;
+        width: 80%;
+    }
+    .discount-date{
+        font-size: 18px;
+        line-height: 1.5rem;
+    }
+    .fourth-shop{
+        border-radius: 4px;
+        font-size: 13px;
+        width: 6.5rem;
+    }
+}
+@media (max-width:550px) {
+    .fourth-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pay-sale{
+        width: 100%;
+    }
+    .fourth-2{
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        margin: auto;
+    }
+}
+@media (max-width:380px) {
+    .fourth-image{
+        width: 12rem;
+    }
+    .pay-sale{
+        font-size: 17px;
+        width: 100%;
+    }
+    .spend{
+        font-size: 10px;
+        width: 100%;
+    }
+    .discount-date{
+        font-size: 14px;
+        width: 100%;
+    }
+}
